@@ -12,3 +12,9 @@ If you make a change and wish for it to take effect, simply run:
 cd ~/.st
 sudo make clean install
 ```
+
+Run picom in the background to add a transparency effect:
+```bash
+picom -cfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88
+```
+Though `picom -c -b` should suffice as the former flag enables a shadows effect, and the latter autostarts picom as a background process.
