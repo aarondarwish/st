@@ -3,7 +3,7 @@ A modified suckless terminal with a volcano theme.
 
 To install, execute:
 ```bash
-git clone https://github.com/aaron-darwish/st ~/.st
+git clone https://github.com/aarondarwish/st ~/.st
 cd ~/.st
 sudo make install
 ```
