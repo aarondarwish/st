@@ -6,7 +6,10 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "mono:bold:pixelsize=18:antialias=true:autohint=true";
-static char *font2[] = { "mono:bold:pixelsize=18:antialias=true:autohint=true" };
+static char *font2[] = { 
+    "mono:bold:pixelsize=18:antialias=true:autohint=true",
+    "Twemoji:pixelsize=18:antialias=true:autohint=true"
+};
 static int borderpx = 10;
 
 /*
